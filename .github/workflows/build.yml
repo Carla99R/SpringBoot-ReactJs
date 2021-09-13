@@ -35,5 +35,5 @@ jobs:
         run: |
           ./mvnw --no-transfer-progress clean package -P build-frontend
 
-  before_install:
+before_install:
     - chmod +x mvnw
