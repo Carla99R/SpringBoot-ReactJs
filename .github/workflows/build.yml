@@ -32,5 +32,7 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
       - name: Maven Clean Package
+      - before_install:
+          - chmod +x mvnw
         run: |
           ./mvnw --no-transfer-progress clean package -P build-frontend
