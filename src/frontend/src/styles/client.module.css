@@ -1,0 +1,136 @@
+@media (max-width: 478px) {
+    .hide {
+        display: none;
+    }
+
+    .tabla {
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        min-width: 150px;
+        font-size: 10px;
+    }
+
+    .client {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 45%;
+    }
+
+    .name {
+        padding-left: 5%;
+    }
+
+
+}
+
+.bg {
+    background: #fff;
+    height: 80vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.spin {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+    width: 100%;
+    float: right;
+}
+
+.boton {
+    color: #00b4d8;
+    background-color: #ade8f4;
+    border-radius: 10px;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: inherit;
+    font-size: 18px;
+    align-items: center;
+    margin: 0;
+    font-family: "sans-serif";
+    padding-left: 5px;
+}
+
+#submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonS {
+    border-radius: 10px;
+    font-weight: inherit;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    background-color: #c3c3c3;
+    color: whitesmoke;
+
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+}
+
+.title {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #00b4d8;
+    margin: 0;
+    font-weight: 400;
+}
+
+.frame {
+    border-color: transparent;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    padding-left: 20%;
+}
+
+#empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+
+Table {
+    border-collapse: collapse;
+}
+

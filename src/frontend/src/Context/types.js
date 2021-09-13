@@ -1,0 +1,4 @@
+export const ALL_STUDENTS = 'ALL_STUDENTS'
+export const ID_STUDENT = 'ID_STUDENT'
+export const ADD_STUDENT = 'ADD_STUDENT'
+export const DELETE_STUDENT = 'DELETE_STUDENT'
