@@ -6,7 +6,6 @@ import PopConfirm from "../components/popconfirm";
 import StudentContext from "../Context/Student/StudentContext";
 import SiderMenu from "../components/sider";
 import {errorNotification, successNotification} from "../components/notification";
-import {Footer} from "antd/es/layout/layout";
 import PiePagina from "../assets/images/R.png"
 
 const Client = () => {
